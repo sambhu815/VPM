@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">e-Città</string>
+
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+
+    <!--Portuguese-->
+
+    <string name="error_port">Erro de conexão com o servidor. Favor tentar de novo. </string>
+    <string name="internet_p">Verifique sua conexão de internet.</string>
+    <string name="loading_p">Aguarde, carregando</string>
+    <string name="setting_p">Configurações</string>
+
+    <string-array name="list_items_port">
+        <item>Início</item>
+        <item>Perfil do Usuário</item>
+        <item>Mensagens</item>
+        <item>Habitações</item>
+        <item>Sair</item>
+    </string-array>
+
+    <string-array name="filter_p">
+        <item>Opções de Busca</item>
+        <item>Nome - A a Z</item>
+        <item>Nome - Z a A</item>
+        <item>Data - Ascendente</item>
+        <item>Data - Descendente</item>
+    </string-array>
+
+    <string-array name="status_p">
+        <item>Todos</item>
+        <item>ABERTOS</item>
+        <item>FECHADOS</item>
+    </string-array>
+
+    <string-array name="search_p">
+        <item>Não Resolvido</item>
+        <item>Todos</item>
+        <item>Resolvido</item>
+    </string-array>
+
+    <string-array name="search_filter_p">
+        <item>Data - Ascendente</item>
+        <item>Data - Descendente</item>
+    </string-array>
+
+    <!--English-->
+
+    <string name="error">Error when connecting to server. Please try again.</string>
+    <string name="internet">Please Check your Internet Connection</string>
+    <string name="loading">Loading , Please wait</string>
+    <string name="setting_">Setting</string>
+
+    <string-array name="list_items">
+        <item>Home</item>
+        <item>User Profile</item>
+        <item>Messages</item>
+        <item>Residence</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="filter">
+        <item>Select Filter Option</item>
+        <item>Name - A to Z</item>
+        <item>Name - Z to A</item>
+        <item>Date - Ascending</item>
+        <item>Date - Descending</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>ALL</item>
+        <item>OPEN</item>
+        <item>CLOSED</item>
+    </string-array>
+
+    <string-array name="search">
+        <item>UnDone</item>
+        <item>All</item>
+        <item>Done</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>Português</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="search_filter">
+        <item>Date - Ascending</item>
+        <item>Date - Descending</item>
+    </string-array>
+
+    <string name="usernameoremailid">E-mail</string>
+
+</resources>

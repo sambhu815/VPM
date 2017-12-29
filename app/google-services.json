@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "362709337891",
+    "firebase_url": "https://e-citta.firebaseio.com",
+    "project_id": "e-citta",
+    "storage_bucket": "e-citta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362709337891:android:215033c80a8e788a",
+        "android_client_info": {
+          "package_name": "com.ecitta.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362709337891-1d8if1cvc41f792rfo5cf7ohj7kuoaua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv8XhEXaZh4TKf7IZvWr1qRSd5UABpydA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

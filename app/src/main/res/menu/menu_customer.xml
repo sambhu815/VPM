@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ecitta.android.VPM_Customer.Home_Customer_Activity">
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_power"
+        android:orderInCategory="100"
+        android:title="track"
+        app:showAsAction="ifRoom" />
+
+</menu>

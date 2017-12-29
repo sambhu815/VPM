@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_logo"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+        <ImageView
+            android:id="@+id/iv_flag"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/iv_profile"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/imageview_bg"
+            android:src="@drawable/ic_profile" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_profile"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="hekki sakfdjhasdf"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+       <!-- <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="5dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="sambhu815@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="18sp" />-->
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_header"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp" />
+</RelativeLayout>
